@@ -11,26 +11,90 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/media_query.css" />
 
     <title>Monit – Making Logistics Smart & Safe</title>
   </head>
 
   <body>
-    <div class="container text-center">
+    <div
+      class="container text-center mt-5"
+      data-aos="fade-up"
+      data-aos-duration="1100"
+    >
       <div class="row">
-        <div class="col">
-          <h3 class="vision_heading">Our Vision</h3>
-          <p class="vision_text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-            delectus error a pariatur, enim modi, mollitia aliquam reiciendis
-            quia at illum repudiandae commodi rem nam temporibus magnam numquam
-            eius accusantium.
-          </p>
+        <div class="col vision_heading_text">
+          <div>
+            <h3 class="vision_heading">Our Vision</h3>
+            <p class="vision_text">
+              So the founders and their team got to work.<br /><br />
+              After much hard work and tackling obstacles, Monit developed the
+              country’s first AI-embedded road safety solution for commercial
+              fleets for Shell Pakistan.
+            </p>
+          </div>
         </div>
-        <div class="col">
-          <img src="./assets/images/Vision.png" alt="" />
+        <div class="col vision_image">
+          <img src="./assets/images/Vision.png" alt="Vision" />
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container text-center mt-3"
+      data-aos="fade-down"
+      data-aos-duration="1100"
+    >
+      <div class="row mission_row">
+        <div class="col mission_image">
+          <img src="./assets/images/Mission.png" alt="Mission" />
+        </div>
+        <div class="col mission_heading_text">
+          <div>
+            <h3 class="mission_heading">Our Mission</h3>
+            <p class="mission_text">
+              And from then on, Monit just kept on moving forward.<br /><br />
+              They expanded their research into driver fatigue tracking, GPS,
+              geo-fencing, and a lot of other tricky stuff. Now, they are
+              aggressively expanding into increasing their talent pool for R&D
+              and operational capacity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid values">
+      <div class="container text-center">
+        <h1 class="values_heading">Values That Enrich Our Value</h1>
+        <div class="row align-items-center row_values">
+          <div class="col values_col_1">
+            <img src="./assets/images/Drive.png" alt="Drive" />
+            <h2 class="values_col_1_heading">Drive</h2>
+            <p class="values_col_1_text">
+              We are “restless”, looking for the best possible solutions for our
+              clients and our employees.
+            </p>
+          </div>
+          <div class="col values_col_2">
+            <img src="./assets/images/Devotion.png" alt="Devotion" />
+            <h2 class="values_col_1_heading">Devotion</h2>
+            <p class="values_col_1_text">
+              The desire to become a “customer centric” company for our clients
+              and our employees.
+            </p>
+          </div>
+          <div class="col values_col_3">
+            <img src="./assets/images/Dynamism.png" alt="Dynamism" />
+            <h2 class="values_col_1_heading">Dynamism</h2>
+            <p class="values_col_1_text">
+              How we become a company that is continuously looking to improve
+              and adopt new and better ways of doing things, with a fresh and
+              ingenious view.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -42,5 +106,9 @@
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

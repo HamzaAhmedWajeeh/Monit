@@ -26,12 +26,104 @@
     --font-family-semibold: 'Nunito-SemiBold', sans-serif;
   }
 
+  /* Vision Heading START */
+  .vision_heading_text {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .vision_text {
+    font-family: var(--font-family-regular);
+    font-size: 22px;
+    text-align: left;
+  }
+
   .vision_heading {
     font-family: var(--font-family-bold);
     font-size: 40px;
+    text-align: left;
+    margin-bottom: 15px;
   }
 
-  .vision_text{
+  .vision_image {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+/* Vision Heading END */
+
+/* Mission Heading START */
+  .mission_heading_text {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .mission_text {
     font-family: var(--font-family-regular);
     font-size: 22px;
+    text-align: left;
   }
+
+  .mission_heading {
+    font-family: var(--font-family-bold);
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  .mission_image {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+/* Mission Heading START */
+
+/* Values START */
+  .values {
+    background: linear-gradient(to right, rgba(8, 21, 118, 1), rgba(1, 156, 215, 1));
+    height: 548.88px;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  .values_heading{
+    font-family: var(--font-family-bold);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 28px;
+    color: #FFF;
+  }
+  .values_col_1_heading, .values_col_2_heading, .values_col_3_heading{
+    font-family: var(--font-family-semibold);
+    font-size: 26px;
+    margin-top: 22px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    color: #FFF;
+  }
+  .values_col_1_text, .values_col_2_text, .values_col_3_text{
+    font-family: var(--font-family-regular);
+    font-size: 17px;
+    padding-bottom: 30px;
+    color: #FFF;
+  }
+  .values_col_1, .values_col_2 {
+    border-right: 1px solid rgba(227, 227, 227, 0.5); /* Add right border with reduced opacity */
+    padding-right: 20px;
+  }
+  .values_col_1 {
+    margin-left: 20px;
+    padding-right: 10px; /* Add some padding on the right side */
+  }
+
+  .values_col_2 {
+    padding-right: 10px; /* Add some padding on the right side */
+  }
+
+  .values_col_3 {
+    margin-left: 20px;
+  }
+
+  /* Values END */
