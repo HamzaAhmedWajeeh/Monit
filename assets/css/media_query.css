@@ -1,6 +1,6 @@
 @media only screen and (max-width: 768px) {
     .vision_image img, .mission_image img {
-        width: -webkit-fill-available;
+        width: 285px;
     }
     .vision_heading, .mission_heading, .vision_text, .mission_text{
         text-align: center;
@@ -16,6 +16,13 @@
     }
     .mission_heading_text{
         margin-left: 0px;
+    }
+    .vision_heading_text{
+          margin-left: 20px;
+          margin-right: 20px;
+    }
+    .vision_text, .mission_text{
+      font-size: 17px;
     }
   }
 
@@ -44,6 +51,12 @@
       margin-bottom: 20px;
     }
 
+    .values_col_1_text,
+    .values_col_2_text,
+    .values_col_3_text {
+      font-size: 15px;
+    }
+
     .values_col_1,
     .values_col_2 {
       border-bottom: 1px solid rgba(227, 227, 227, 0.5);
@@ -54,19 +67,46 @@
 
 
   @media only screen and (max-width: 768px) {
+    .row_solution {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .solution_col_1,
     .solution_col_2,
     .solution_col_3,
     .solution_col_4,
     .solution_col_5 {
+        max-width: calc(50% - 10px);
+        /* margin-right: 20px; */
+        margin-bottom: 20px;
+        min-height: 308px;
+        /* display: flex; */
+        /* flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
 
-    flex-basis: calc(50% - 10px);
-      margin-right: 0; /* Remove margin for the last column in a row */
+    .solution_heading_text{
+      margin-left: 10px;
+    margin-right: 10px;
     }
-    .row_solution{
-        width: 50%;
-        display: flex;
-        flex-basis: calc(50% - 10px);
-        margin-right: 0;
+    .solution_col_1_heading,
+    .solution_col_2_heading,
+    .solution_col_3_heading,
+    .solution_col_4_heading,
+    .solution_col_5_heading {
+      font-size: 18px;
     }
-  }
+
+    .solution_col_1_text,
+    .solution_col_2_text,
+    .solution_col_3_text,
+    .solution_col_4_text,
+    .solution_col_5_text {
+      font-size: 11px;
+    }
+    .solution_col_1_text{
+      margin-bottom: 0px !important;
+    }
+}
