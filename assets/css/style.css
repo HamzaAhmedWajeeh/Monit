@@ -19,19 +19,11 @@
     font-style: normal;
   }
 
-  @font-face {
-    font-family: 'Nunito-Medium';
-    src: url('./../Nunito/static/Nunito-Medium.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-  }
-
   :root {
     --primary-color: #081576;
     --font-family-regular: 'Nunito-Regular', sans-serif;
     --font-family-bold: 'Nunito-Bold', sans-serif;
     --font-family-semibold: 'Nunito-SemiBold', sans-serif;
-    --font-family-medium: 'Nunito-Medium', sans-serif;
   }
 
   /* Vision Heading START */
@@ -192,7 +184,7 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-right: 20px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .solution_col_1:hover,
@@ -200,7 +192,7 @@
 .solution_col_3:hover,
 .solution_col_4:hover,
 .solution_col_5:hover {
-  transform: translateY(-5px) !important;
+  transform: translateY(-5px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 
@@ -236,164 +228,28 @@
   color: #828282;
 }
 /* solution END */
-
-/* Team Slider START */
-#owl-demo .item{
-  background: #3fbf79;
-  padding: 30px 0px;
-  margin: 10px;
-  color: #FFF;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+.carousel-indicators {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
-/* Team Slider END */
 
-/* Footer Start */
-.footer{
-  background-color: #00094D;
-  height: 485px;
-}
-.footer_col_1, .footer_col_2, .footer_col_3{
-  margin-top: 80px !important;
-  text-align: left;
-}
-.footer_col_1{
-  margin-left: 110px;
-  padding-right: 60px !important;
-}
-.footer_col_1_text{
-  color: #FFFFFF;
-  font-family: var(--font-family-regular);
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 16px;
-}
-.footer_col_2_text{
-  color: #FFFFFF;
-  font-family: var(--font-family-regular);
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 16px;
-}
-.footer_col_2_text li {
-  list-style-type: none;
-  font-family: var(--font-family-regular);
-  margin-top: 5px;
+.carousel-indicators li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #1c47e3;
+  border: 1px solid #1c47e3;
+  border-radius: 3px;
 }
 
-.footer_col_2_text a {
-  color: #FFFFFF; /* Set default color to white */
-  text-decoration: none; /* Remove underline */
+.carousel-indicators .active {
+  background-color: #fff;
 }
 
-.footer_col_2_text a:hover {
-  color: #019BD6; /* Change color to black on hover */
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #1c47e3;
 }
-
-
-.footer_socials {
-  display: flex;
-  gap: 10px; /* Add spacing between buttons */
-}
-
-.footer_icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px; /* Set the width */
-  height: 40px; /* Set the height */
-  border-radius: 50%; /* Make the button perfectly round */
-  background-color: transparent;
-  border: 1px solid white;
-  overflow: hidden;
-  position: relative;
-  transition: background-color 0.3s ease; /* Add transition for hover effect */
-}
-
-.footer_icon:hover {
-  background-color: #019BD6; /* Change background color on hover */
-}
-
-.footer_col_2_heading{
-  font-family: var(--font-family-bold);
-  color: #FFFFFF;
-}
-
-.contact-info {
-  display: flex;
-}
-
-.email-icon {
-  margin-right: 10px; /* Add right margin for spacing */
-}
-
-.email-text p {
-  margin: 0; /* Remove default margins for paragraphs */
-  font-family: var(--font-family-medium);
-}
-
-.email-text span {
-  font-family: var(--font-family-regular);
-  font-size: 15px;
-}
-
-.email-text {
-  color: #FFFFFF; /* Set text color to white */
-}
-
-.email-text a {
-  color: inherit; /* Inherit text color from parent */
-  text-decoration: none; /* Remove underline from the link */
-}
-
-.location-info {
-  display: flex;
-  margin-top: 30px;
-}
-
-.location-icon {
-  margin-right: 10px; /* Add right margin for spacing */
-}
-
-.location-text p {
-  margin: 0; /* Remove default margins for paragraphs */
-  font-family: var(--font-family-medium);
-}
-
-.location-text span {
-  font-family: var(--font-family-regular);
-  font-size: 15px;
-}
-
-.location-text {
-  color: #FFFFFF; /* Set text color to white */
-}
-
-.footer_row{
-  border-bottom: 1px solid rgba(227, 227, 227, 0.5);
-
-}
-.copyright {
-  display: flex; /* Use flexbox */
-  justify-content: space-between; /* Space the items evenly */
-  margin-top: 15px;
-  font-family: var(--font-family-regular);
-  font-size: 14px;
-  color: #FFFFFF;
-}
-
-.copyright p {
-  margin: 0; /* Remove default margin */
-}
-
-.terms {
-  text-align: right; /* Align the terms to the right */
-}
-
-
-
-
-
-/* Footer END */
