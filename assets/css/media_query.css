@@ -108,6 +108,8 @@
 
 
 
+
+
 @media only screen and (max-width: 768px) {
   .footer{
     height: max-content;
@@ -119,7 +121,7 @@
   .footer_col_2,
   .footer_col_3 {
     width: 100%; /* Set width to 100% to span the entire screen */
-    margin-top: 60px !important;
+    margin-top: 45px !important;
   }
 
   .footer_row {
@@ -135,7 +137,22 @@
 
   .footer_col_2_text li {
     width: 48%;
+  }
+  .footer_col_2_text, .footer_col_2_heading{
     margin-left: 10px;
+  }
+  .footer_col_3{
+    margin-top: 13px !important;
+  }
+  .copyright,
+  .terms {
+    width: 100%; /* Set width to 100% to span the entire screen */
+    text-align: left; /* Center align the text */
+    display: block; /* Change display to block to force each section to occupy the full width */
+    margin-top: 10px; /* Add margin between the sections */
+  }
+  .terms{
+    padding-bottom: 30px;
   }
 }
 
