@@ -78,13 +78,8 @@
     .solution_col_4,
     .solution_col_5 {
         max-width: calc(50% - 10px);
-        /* margin-right: 20px; */
         margin-bottom: 20px;
         min-height: 308px;
-        /* display: flex; */
-        /* flex-direction: column;
-        justify-content: center;
-        align-items: center; */
     }
 
     .solution_heading_text{
