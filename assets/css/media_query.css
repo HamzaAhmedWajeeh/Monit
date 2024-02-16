@@ -156,3 +156,18 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .about{
+    height: max-content;
+    width:100%;
+  }
+  .about_col_1{
+    margin-left: 15px;
+  }
+  .about_small_heading {
+    font-size: 25px;
+  }
+  .about_big_heading {
+    font-size: 33px;
+  }
+}
