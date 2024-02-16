@@ -438,3 +438,12 @@ text-align: right; /* Align the terms to the right */
   font-size: 14px;
   color: #FFFFFF;
 }
+
+.copyright a {
+  color: inherit; /* Inherit text color from parent */
+  text-decoration: none; /* Remove underline from the link */
+  }
+.copyright a:hover {
+  color: #019BD6;
+
+    }
