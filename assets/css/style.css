@@ -278,10 +278,7 @@ font-size: 15px;
 color: #FFFFFF; /* Set text color to white */
 }
 
-.footer_row{
-border-bottom: 1px solid rgba(227, 227, 227, 0.5);
 
-}
 .copyright {
 display: flex; /* Use flexbox */
 justify-content: space-between; /* Space the items evenly */
@@ -427,9 +424,21 @@ text-align: right; /* Align the terms to the right */
 .location-text {
   color: #FFFFFF; /* Set text color to white */
 }
-.footer_row{
-  border-bottom: 1px solid rgba(227, 227, 227, 0.5);
+.footer_row {
+  position: relative; /* Set position relative to enable absolute positioning of pseudo-element */
 }
+
+.footer_row:before {
+  content: ""; /* Add content to the pseudo-element */
+  position: absolute; /* Set position absolute to position the pseudo-element */
+  bottom: 0; /* Position it at the bottom of the container */
+  left: 50%; /* Position it at the middle horizontally */
+  width: 87%; /* Set the width of the pseudo-element to half of the container */
+  height: 1px; /* Height of the border */
+  background-color: rgba(227, 227, 227, 0.5); /* Color of the border */
+  transform: translateX(-50%); /* Center the pseudo-element */
+}
+
 .copyright {
   display: flex; /* Use flexbox */
   justify-content: space-between; /* Space the items evenly */
