@@ -127,3 +127,82 @@
   }
 
   /* Values END */
+
+/* solution START */
+.solution {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .solution_heading {
+    font-family: var(--font-family-bold);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 28px;
+    color: #000;
+    margin-top: 30px;
+  }
+
+  .solution_heading_text {
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+  }
+
+  .solution_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Add gap between columns */
+  }
+
+  .solution_col_1,
+  .solution_col_2,
+  .solution_col_3,
+  .solution_col_4 {
+    flex: 1; /* Each column takes up equal space */
+    max-width: 300px; /* Maximum width for each column */
+    min-height: 300px; /* Maximum width for each column */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    background-color: #fff; /* Set background color to white */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    padding: 20px; /* Add padding */
+    margin-right: 20px; /* Add margin between columns */
+  }
+
+  .solution_col_1 img,
+  .solution_col_2 img,
+  .solution_col_3 img,
+  .solution_col_4 img,
+  .solution_col_5 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px; /* Center image and add margin below */
+  }
+
+  .solution_col_1_heading,
+  .solution_col_2_heading,
+  .solution_col_3_heading,
+  .solution_col_4_heading,
+  .solution_col_5_heading {
+    font-family: var(--font-family-semibold);
+    font-size: 22px;
+    margin-bottom: 25px;
+    color: #000;
+  }
+
+  .solution_col_1_text,
+  .solution_col_2_text,
+  .solution_col_3_text,
+  .solution_col_4_text,
+  .solution_col_5_text {
+    font-family: var(--font-family-regular);
+    font-size: 14px;
+    color: #828282;
+  }
+  /* solution END */
+
