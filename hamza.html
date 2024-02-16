@@ -5,12 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/nav.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./assets/css/team.css" />
+    <link rel="stylesheet" href="./assets/css/team_responsive.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/media_query.css" />
@@ -19,7 +15,7 @@
   </head>
 
   <body>
-    <div class="container-fluid solution">
+    <div class="container-fluid solution" id="solution">
       <div class="container text-center">
         <h1 class="solution_heading">Monit Solution</h1>
         <p class="solution_heading_text">
@@ -28,8 +24,11 @@
           organization’s unique needs.
         </p>
         <div class="row align-items-center row_solution">
-          <div class="col solution_col_1" data-aos="fade-left"
-          data-aos-duration="1300">
+          <div
+            class="col solution_col_1"
+            data-aos="fade-left"
+            data-aos-duration="1300"
+          >
             <img
               src="./assets/images/Locally sourced hardware and software.png"
               alt="Drive"
@@ -41,8 +40,11 @@
               Zero imports, stable prices, no lead times for spare part imports
             </p>
           </div>
-          <div class="col solution_col_2" data-aos="fade-right"
-          data-aos-duration="1300">
+          <div
+            class="col solution_col_2"
+            data-aos="fade-right"
+            data-aos-duration="1300"
+          >
             <img
               src="./assets/images/Fully customized solutions.png"
               alt="Fully customized solutions"
@@ -53,8 +55,11 @@
               your fleet management workflows
             </p>
           </div>
-          <div class="col solution_col_3" data-aos="fade-left"
-          data-aos-duration="1300">
+          <div
+            class="col solution_col_3"
+            data-aos="fade-left"
+            data-aos-duration="1300"
+          >
             <img
               src="./assets/images/Integrated GPS trackers.png"
               alt="GPS trackers"
@@ -64,8 +69,11 @@
               Track everything from anywhere, anytime
             </p>
           </div>
-          <div class="col solution_col_4" data-aos="fade-right"
-          data-aos-duration="1300">
+          <div
+            class="col solution_col_4"
+            data-aos="fade-right"
+            data-aos-duration="1300"
+          >
             <img
               src="./assets/images/Complete one-window solution.png"
               alt="Complete one-window solution"
@@ -75,8 +83,11 @@
               Get everything under one roof, no dependency on external vendors
             </p>
           </div>
-          <div class="col solution_col_5" data-aos="fade-left"
-          data-aos-duration="1300">
+          <div
+            class="col solution_col_5"
+            data-aos="fade-left"
+            data-aos-duration="1300"
+          >
             <img src="./assets/images/Ongoing RnD.png" alt="RnD" />
             <h2 class="solution_col_1_heading">Ongoing RnD</h2>
             <p class="solution_col_1_text">
@@ -93,7 +104,7 @@
       data-aos="fade-up"
       data-aos-duration="1100"
     >
-      <div class="row">
+      <div class="row" id="vision">
         <div class="col vision_heading_text">
           <div
             style="margin-left: 20px; margin-right: 20px; margin-bottom: 20px"
@@ -118,7 +129,7 @@
       data-aos="fade-down"
       data-aos-duration="1100"
     >
-      <div class="row mission_row">
+      <div class="row mission_row" id="mission">
         <div class="col mission_image">
           <img src="./assets/images/Mission.png" alt="Mission" />
         </div>
@@ -139,8 +150,12 @@
       </div>
     </div>
 
-    <div class="container-fluid values" data-aos="fade-up"
-    data-aos-duration="1100">
+    <div
+      class="container-fluid values"
+      data-aos="fade-up"
+      data-aos-duration="1100"
+      id="values"
+    >
       <div class="container text-center">
         <h1 class="values_heading">Values That Enrich Our Value</h1>
         <div class="row align-items-center row_values">
@@ -172,6 +187,71 @@
         </div>
       </div>
     </div>
+
+    <div class="container-fluid text-center footer">
+      <div class="row footer_row">
+        <div class="col footer_col_1">
+          <img src="./assets/images/footer_logo.png" alt="logo" />
+          <p class="footer_col_1_text">
+            Monit is Pakistan’s first Vehicular Internet of Things (IoT) and
+            Embedded Artificial Intelligence (AI) manufacturer, developing
+            cutting-edge solutions for commercials fleets.
+          </p>
+          <div class="footer_socials">
+          <a href="#" class="footer_icon"><img src="assets/images/fb.png" alt="network error"></a>
+          <a href="#" class="footer_icon"><img src="assets/images/twitter.png" alt="network error"></a>
+          <a href="#" class="footer_icon"><img src="assets/images/youtube.png" alt="network error"></a>
+          </div>
+
+        </div>
+        <div class="col footer_col_2">
+          <h1 class="footer_col_2_heading">Quick Links</h1>
+          <div class="footer_col_2_text">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#solution">Monit Solution</a></li>
+            <li><a href="#about">About Monit</a></li>
+            <li><a href="#vision">Vision & Mission</a></li>
+            <li><a href="#values">Our Values</a></li>
+            <li><a href="#leadership">Monit Leadership</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#quote">Get A Quote</a></li>
+          </div>
+
+        </div>
+        <div class="col footer_col_3">
+          <h1 class="footer_col_2_heading">Contact Us</h1>
+          <div class="footer_col_2_text">
+            <div class="contact-info">
+              <div class="email-icon">
+                <img src="./assets/images/email.png" alt="Email Icon">
+              </div>
+              <div class="email-text">
+                <p>Email : <br/> <span><a href="mailto:info@example.com">info@example.com</a></span></p>
+              </div>
+            </div>
+
+            <div class="location-info">
+              <div class="location-icon">
+                <img src="./assets/images/location.png" alt="Email Icon">
+              </div>
+              <div class="location">
+                <p>Address : <br/> <span>202, Azayam Plaza, Shahrah e Faisal,<br>Karachi, Pakistan – 74000</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container copyright">
+        <div>
+          <p>Copyright © 2024 Monit. All rights reserved.</p>
+        </div>
+        <div class="terms">
+          <p>Terms of Use I Privacy Policy I Account</p>
+        </div>
+      </div>
+    </div>
+
 
     <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="assets/bootstrap/bootstrap.min.js"></script>

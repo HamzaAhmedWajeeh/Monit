@@ -105,3 +105,37 @@
       margin-bottom: 0px !important;
     }
 }
+
+
+
+@media only screen and (max-width: 768px) {
+  .footer{
+    height: max-content;
+  }
+  .footer_col_1{
+    margin-left: 10px;
+    padding-right: 60px !important;
+  }
+  .footer_col_2,
+  .footer_col_3 {
+    width: 100%; /* Set width to 100% to span the entire screen */
+    margin-top: 60px !important;
+  }
+
+  .footer_row {
+    flex-direction: column; /* Change flex direction to column for stacking items vertically */
+  }
+
+  .footer_col_2_text,
+  .footer_col_3_text {
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between; /* Distribute items evenly between the two columns */
+  }
+
+  .footer_col_2_text li {
+    width: 48%;
+    margin-left: 10px;
+  }
+}
+
