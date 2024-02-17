@@ -228,3 +228,28 @@
   color: #828282;
 }
 /* solution END */
+.carousel-indicators {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #1c47e3;
+  border: 1px solid #1c47e3;
+  border-radius: 3px;
+}
+
+.carousel-indicators .active {
+  background-color: #fff;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #1c47e3;
+}
