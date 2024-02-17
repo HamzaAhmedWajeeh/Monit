@@ -458,13 +458,14 @@ text-align: right; /* Align the terms to the right */
     }
 
     .about {
-      background: linear-gradient(to right, rgba(8, 21, 118, 0.9) 55%, rgba(1, 156, 215, 0.65)), url('./../images/center_banner.png'); /* Set background gradient and image */
+      background: linear-gradient(to right, rgba(28, 8, 118, 1), rgba(1, 156, 215, 0.9)), url('./../images/center_banner.png'); /* Set background gradient and image */
       background-repeat: no-repeat; /* Prevent background image from repeating */
       opacity: 0.8; /* Set the opacity of the background image */
       height: 700px;
       color: #FFFFFF;
       display: flex; /* Use flexbox for layout */
       align-items: center; /* Center vertically */
+      width: 100%;
     }
 
     .about_col_1{

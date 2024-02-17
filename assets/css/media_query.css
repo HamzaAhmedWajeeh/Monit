@@ -160,14 +160,39 @@
   .about{
     height: max-content;
     width:100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
   }
   .about_col_1{
     margin-left: 15px;
+    width: 96%;
+    padding-right: 0px !important;
   }
   .about_small_heading {
-    font-size: 25px;
+    font-size: 22px;
+    width: max-content;
   }
   .about_big_heading {
-    font-size: 33px;
+    font-size: 28px;
+    width: 90%;
+  }
+  .about_big_heading br{
+    display: none;
+  }
+  .about_p {
+    font-size: 14px;
+    width: 90%;
+  }
+  .about_p br {
+    display: none;
+  }
+  .about_goal{
+    font-size: 20px;
+    width: 90%;
+  }
+  .about_goal br{
+    display: none;
   }
 }
