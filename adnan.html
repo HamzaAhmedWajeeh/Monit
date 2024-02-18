@@ -1,171 +1,563 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/nav.css" />
+    <link rel="stylesheet" href="./assets/css/team.css" />
+    <link rel="stylesheet" href="./assets/css/team_responsive.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/media_query.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="nav.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-    rel="stylesheet" />
+    <title>Monit – Making Logistics Smart & Safe</title>
+  </head>
 
-  <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/nav.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>Monit – Making Logistics Smart & Safe</title>
-</head>
+  <body>
 
-<body>
-
-
-
-  <section id="hero-section">
-
-    <div class="layer"></div>
-
-    <header class="header-area">
-      <div class="header-container">
-
-        <div class="mobile-nav" id="l">
-          <a href="#" class="icon"><img src="assets/images/fb.png" alt="network error"></a>
-          <a href="#" class="icon"><img src="assets/images/twitter.png" alt="network error"></a>
-          <a href="#" class="icon"><img src="assets/images/youtube.png" alt="network error"></a>
-
-          <img src="assets/images/nav.svg" alt="network error" class="mainicon">
-
-        </div>
-
-        <div class="site-logo" id="ic">
-          <a href="#"><img src="assets/images/banner_logo.png" alt="network error"></a>
-
-        </div>
-
-
-
-        <div class="site-nav-menu">
-          <div class="header-container">
-            <div class="mobile-nav" id="ll">
-              <img src="assets/images/close.png" alt="network error" class="mainicon">
+    <section id="hero-section">
+      <div class="layer"></div>
+      <header class="header-area">
+        <div class="header-container">
+          <div class="mobile-nav" >
+            <div class="footer_socials icon" id="iconn">
+              <a href="#" class="footer_icon"
+                ><img src="assets/images/fb.png" alt="network error"
+              /></a>
+              <a href="#" class="footer_icon"
+                ><img src="assets/images/twitter.png" alt="network error"
+              /></a>
+              <a href="#" class="footer_icon"
+                ><img src="assets/images/youtube.png" alt="network error"
+              /></a>
             </div>
-            <div class="site-logo" style="padding: 0 17px;">
-
-              <a href="#"><img src="assets/images/banner_logo.png" alt="network error"></a>
-            </div>
+            <img
+              src="assets/images/nav.svg"
+              alt="network error" id="l"
+              class="mainicon"
+            />
           </div>
-          <ul class="primary-menu">
-            <br><br>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Works</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <!-- Banner Section -->
-    <div class="banner-section text-white" id="icc">
-      <div class="banner-content">
-        <h1>We help people manage their<br> vehicles through Embedded AI <br> and IoT</h1><br>
-        <a href="#" class="banner-btn">GET A QUOTE</a>
-      </div>
-    </div>
-    <div class="video-sec" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="vid">
-      <a href="#">PLAY <br> VIDEO</a>
-    </div>
-  </section><br><br>
+          <div class="site-logo" id="ic">
+            <a href="#"
+              ><img src="assets/images/banner_logo.png" alt="network error"
+            /></a>
+          </div>
 
-
-  <!--Video Modal-->
-  <!-- Modal -->
-  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Our Vision</h1>
-          <a class="icon" data-bs-dismiss="modal" aria-label="Close">X</a>
-        </div>
-        <div class="modal-body p-5">
-          <div class="video-container">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/JFIkv210PG0?si=KmCcAeZzJGYI2Jw_"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen style="border: none;"></iframe>
+          <div class="site-nav-menu">
+            <div class="header-container">
+              <div class="mobile-nav" id="ll">
+                <img
+                  src="assets/images/close.png"
+                  alt="network error"
+                  class="mainicon"
+                />
+              </div>
+              <div class="site-logo" style="padding: 0 17px">
+                <a href="#"
+                  ><img src="assets/images/banner_logo.png" alt="network error"
+                /></a>
+              </div>
+            </div>
+            <ul class="primary-menu">
+              <br /><br />
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Works</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
           </div>
         </div>
+      </header>
+      <!-- Banner Section -->
+      <div class="banner-section text-white" id="icc">
+        <div class="banner-content">
+          <h1>
+            We help people manage their<br />
+            vehicles through Embedded AI <br />
+            and IoT
+          </h1>
+          <br />
+          <a href="#" class="banner-btn">GET A QUOTE</a>
+        </div>
+      </div>
+      <div
+        class="video-sec"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop"
+        id="vid"
+      >
+        <a href="#"
+          >PLAY <br />
+          VIDEO</a
+        >
+      </div>
+    </section>
+    <br /><br />
+
+    <!--Video Modal-->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Our Vision</h1>
+            <a  data-bs-dismiss="modal" aria-label="Close" style="text-decoration: none;cursor: pointer;color: #EFEFEF;font-size: 3 0px;">X</a>
+          </div>
+          <div class="modal-body p-5">
+            <div class="video-container">
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/JFIkv210PG0?si=KmCcAeZzJGYI2Jw_"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                style="border: none"
+              ></iframe>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 
 
+    <div class="container-fluid solution mb-3" id="solution">
+      <div class="container text-center">
+        <h1 class="solution_heading">Monit Solution</h1>
+        <p class="solution_heading_text">
+          Drive cost efficiency, improve customer experience and promote
+          sustainability with innovative IoT solutions that are tailored to your
+          organization’s unique needs.
+        </p>
+        <div class="row align-items-center row_solution">
+          <div
+            class="col solution_col_1"
+            data-aos="fade-left"
+            data-aos-duration="1300"
+          >
+            <img
+              src="./assets/images/Locally sourced hardware and software.png"
+              alt="Drive"
+            />
+            <h2 class="solution_col_1_heading">
+              Locally sourced hardware and software
+            </h2>
+            <p class="solution_col_1_text">
+              Zero imports, stable prices, no lead times for spare part imports
+            </p>
+          </div>
+          <div
+            class="col solution_col_2"
+            data-aos="fade-right"
+            data-aos-duration="1300"
+          >
+            <img
+              src="./assets/images/Fully customized solutions.png"
+              alt="Fully customized solutions"
+            />
+            <h2 class="solution_col_1_heading">Fully customized solutions</h2>
+            <p class="solution_col_1_text">
+              Client-first approach to IOT deployment gives you full control on
+              your fleet management workflows
+            </p>
+          </div>
+          <div
+            class="col solution_col_3"
+            data-aos="fade-left"
+            data-aos-duration="1300"
+          >
+            <img
+              src="./assets/images/Integrated GPS trackers.png"
+              alt="GPS trackers"
+            />
+            <h2 class="solution_col_1_heading">Integrated GPS trackers</h2>
+            <p class="solution_col_1_text">
+              Track everything from anywhere, anytime
+            </p>
+          </div>
+          <div
+            class="col solution_col_4"
+            data-aos="fade-right"
+            data-aos-duration="1300"
+          >
+            <img
+              src="./assets/images/Complete one-window solution.png"
+              alt="Complete one-window solution"
+            />
+            <h2 class="solution_col_1_heading">Complete one-window solution</h2>
+            <p class="solution_col_1_text">
+              Get everything under one roof, no dependency on external vendors
+            </p>
+          </div>
+          <div
+            class="col solution_col_5"
+            data-aos="fade-left"
+            data-aos-duration="1300"
+          >
+            <img src="./assets/images/Ongoing RnD.png" alt="RnD" />
+            <h2 class="solution_col_1_heading">Ongoing RnD</h2>
+            <p class="solution_col_1_text">
+              State of the art facilities ensure constant updates and new
+              features
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <!--testimonials start-->
+    <div class="container-fluid about" id="about">
+      <div class="row align-items-start">
+        <div class="col-lg-9 about_col_1"> <!-- Set about_col_1 to 75% width on large screens -->
+          <h2 class="about_small_heading">About Monit</h2>
+          <h1 class="about_big_heading">MONIT was conceived<br/> in January 2020 with a<br/> dream.</h1>
+          <p class="about_p">
+            With a limited team, low funds, and resources, and with<br/>no
+            indigenous IoT support system within the industry, the<br/>founders of
+            the company had one single goal :
+          </p>
+          <h4 class="about_goal">
+            Create a space for Pakistan's first Vehicular IoT<br/>and AI
+            manufacturers and solution providers<br/>with ZERO dependencies on
+            imports.
+          </h4>
+        </div>
+        <div class="col-lg-3 about_col_2"></div> <!-- Set about_col_2 to remaining 25% width on large screens -->
+      </div>
+    </div>
 
 
+    <div
+      class="container text-center mt-5"
+      data-aos="fade-up"
+      data-aos-duration="1100"
+    >
+      <div class="row" id="vision">
+        <div class="col vision_heading_text">
+          <div
+            style="margin-left: 20px; margin-right: 20px; margin-bottom: 20px"
+          >
+            <h3 class="vision_heading">Our Vision</h3>
+            <p class="vision_text">
+              So the founders and their team got to work.<br /><br />
+              After much hard work and tackling obstacles, Monit developed the
+              country’s first AI-embedded road safety solution for commercial
+              fleets for Shell Pakistan.
+            </p>
+          </div>
+        </div>
+        <div class="col vision_image">
+          <img src="./assets/images/Vision.png" alt="Vision" />
+        </div>
+      </div>
+    </div>
 
-  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div
+      class="container text-center mt-3"
+      data-aos="fade-down"
+      data-aos-duration="1100"
+    >
+      <div class="row mission_row" id="mission">
+        <div class="col mission_image">
+          <img src="./assets/images/Mission.png" alt="Mission" />
+        </div>
+        <div class="col mission_heading_text">
+          <div
+            style="margin-left: 20px; margin-right: 20px; margin-bottom: 20px"
+          >
+            <h3 class="mission_heading">Our Mission</h3>
+            <p class="mission_text">
+              And from then on, Monit just kept on moving forward.<br /><br />
+              They expanded their research into driver fatigue tracking, GPS,
+              geo-fencing, and a lot of other tricky stuff. Now, they are
+              aggressively expanding into increasing their talent pool for R&D
+              and operational capacity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container-fluid values"
+      data-aos="fade-up"
+      data-aos-duration="1100"
+      id="values"
+    >
+      <div class="container text-center">
+        <h1 class="values_heading">Values That Enrich Our Value</h1>
+        <div class="row align-items-center row_values">
+          <div class="col values_col_1">
+            <img src="./assets/images/Drive.png" alt="Drive" />
+            <h2 class="values_col_1_heading">Drive</h2>
+            <p class="values_col_1_text">
+              We are “restless”, looking for the best possible solutions for our
+              clients and our employees.
+            </p>
+          </div>
+          <div class="col values_col_2">
+            <img src="./assets/images/Devotion.png" alt="Devotion" />
+            <h2 class="values_col_1_heading">Devotion</h2>
+            <p class="values_col_1_text">
+              The desire to become a “customer centric” company for our clients
+              and our employees.
+            </p>
+          </div>
+          <div class="col values_col_3">
+            <img src="./assets/images/Dynamism.png" alt="Dynamism" />
+            <h2 class="values_col_1_heading">Dynamism</h2>
+            <p class="values_col_1_text">
+              How we become a company that is continuously looking to improve
+              and adopt new and better ways of doing things, with a fresh and
+              ingenious view.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--testimonials start-->
+
+
+<div class="container-fluid p-5" style="background-color: #EFEFEF;">
+  <h1  style="margin-left: 2rem;font-family: var(--font-family-regular);">People We Work With</h1>
+  <div id="carouselExampleDark" class="carousel carousel-primary slide" data-bs-ride="carousel">
+
     <ol class="carousel-indicators">
         <li  data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
         <li  data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></li>
         <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></li>
     </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
+    <div class="carousel-inner" >
+        <div class="carousel-item active" data-bs-interval="10000" >
             <div class="row container" style="margin: 0 auto;">
-              <div class="col-md-6 shadow mb-3">
-                <img src="assets/images/" alt="">
-                <p class="p-5">Some representative placeholder content for the first slide.
-                  Some representative placeholder content for the first slide.
-                  Some representative placeholder content for the first slide.
-                  Some representative placeholder content for the first slide.
+              <div class="col-md-5 shadow mb-3 p-3 bg-white" style="margin-right: 100px;border-radius: 20px; font-family: var(--font-family-regular);">
+                <img src="assets/images/“.png" alt="network error">
+                <p class="p-3">We really appreciate MONIT as a Pakistani Startup locally manufacturing and developing vehicular IOT and AI solution. We have deployed MONIT Devices in our 38 vehicles running in Shell and other OMCs fleet, getting promising and satisfactory results. We wish all the best to MONIT for its future.
                 </p>
+                <div class="testimonial-content" style="display: flex;">
+                  <img src="assets/images/testimonial_1.png" alt="">
+                  <div class="testimonial-res">
+                    <h3 style="color: black;">Burhan Akhlaque</h3>
+                    <span style="color: skyblue;">
+                      Head of HSE at Shakoor & Co Ltd <br> UEP British petroleum Haulier
+                    </span>
+                  </div>
+                </div>
+
+
 
             </div>
-            <div class="col-md-6 shadow mb-3">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+            <div class="col-md-5 shadow mb-3 p-3 bg-white" style="font-family: var(--font-family-regular);border-radius: 20px;">
+              <img src="assets/images/“.png" alt="network error">
+              <p class="p-3">We really appreciate MONIT as a Pakistani Startup locally manufacturing and developing vehicular IOT and AI solution. We have deployed MONIT Devices in our 38 vehicles running in Shell and other OMCs fleet, getting promising and satisfactory results. We wish all the best to MONIT for its future.
+              </p>
+              <div class="testimonial-content" style="display: flex;overflow: hidden;">
+                <img src="assets/images/testimonial_2.png" alt="">
+                <div class="testimonial-res">
+                  <h3 style="color: black;">Burhan Akhlaque</h3>
+                  <span style="color: skyblue;">
+                    Head of HSE at Shakoor & Co Ltd <br> UEP British petroleum Haulier
+                  </span>
+                </div>
+              </div>
+
+
+
           </div>
             </div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
           <div class="row container" style="margin: 0 auto;">
-            <div class="col-md-6 shadow mb-3">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+            <div class="col-md-5 shadow mb-3 p-3 bg-white" style="margin-right: 100px;border-radius: 20px; font-family: var(--font-family-regular);">
+              <img src="assets/images/“.png" alt="network error">
+              <p class="p-3">We really appreciate MONIT as a Pakistani Startup locally manufacturing and developing vehicular IOT and AI solution. We have deployed MONIT Devices in our 38 vehicles running in Shell and other OMCs fleet, getting promising and satisfactory results. We wish all the best to MONIT for its future.
+              </p>
+              <div class="testimonial-content" style="display: flex;">
+                <img src="assets/images/testimonial_1.png" alt="">
+                <div class="testimonial-res">
+                  <h3 style="color: black;">Burhan Akhlaque</h3>
+                  <span style="color: skyblue;">
+                    Head of HSE at Shakoor & Co Ltd <br> UEP British petroleum Haulier
+                  </span>
+                </div>
+              </div>
+
+
+
           </div>
-          <div class="col-md-6 shadow mb-3">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+          <div class="col-md-5 shadow mb-3 p-3 bg-white" style="font-family: var(--font-family-regular);border-radius: 20px;">
+            <img src="assets/images/“.png" alt="network error">
+            <p class="p-3">We really appreciate MONIT as a Pakistani Startup locally manufacturing and developing vehicular IOT and AI solution. We have deployed MONIT Devices in our 38 vehicles running in Shell and other OMCs fleet, getting promising and satisfactory results. We wish all the best to MONIT for its future.
+            </p>
+            <div class="testimonial-content" style="display: flex;overflow: hidden;">
+              <img src="assets/images/testimonial_2.png" alt="">
+              <div class="testimonial-res">
+                <h3 style="color: black;">Burhan Akhlaque</h3>
+                <span style="color: skyblue;">
+                  Head of HSE at Shakoor & Co Ltd <br> UEP British petroleum Haulier
+                </span>
+              </div>
+            </div>
+
+
+
         </div>
           </div>
+ 
         </div>
         <div class="carousel-item">
-          <div class="row container" style="margin: 0 auto;" >
-            <div class="col-md-6 shadow mb-3">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+          <div class="row container" style="margin: 0 auto;">
+            <div class="col-md-5 shadow mb-3 p-3 bg-white" style="margin-right: 100px;border-radius: 20px; font-family: var(--font-family-regular);">
+              <img src="assets/images/“.png" alt="network error">
+              <p class="p-3">We really appreciate MONIT as a Pakistani Startup locally manufacturing and developing vehicular IOT and AI solution. We have deployed MONIT Devices in our 38 vehicles running in Shell and other OMCs fleet, getting promising and satisfactory results. We wish all the best to MONIT for its future.
+              </p>
+              <div class="testimonial-content" style="display: flex;">
+                <img src="assets/images/testimonial_1.png" alt="">
+                <div class="testimonial-res">
+                  <h3 style="color: black;">Burhan Akhlaque</h3>
+                  <span style="color: skyblue;">
+                    Head of HSE at Shakoor & Co Ltd <br> UEP British petroleum Haulier
+                  </span>
+                </div>
+              </div>
+
+
+
           </div>
-          <div class="col-md-6 shadow mb-3">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+          <div class="col-md-5 shadow mb-3 p-3 bg-white" style="font-family: var(--font-family-regular);border-radius: 20px;">
+            <img src="assets/images/“.png" alt="network error">
+            <p class="p-3">We really appreciate MONIT as a Pakistani Startup locally manufacturing and developing vehicular IOT and AI solution. We have deployed MONIT Devices in our 38 vehicles running in Shell and other OMCs fleet, getting promising and satisfactory results. We wish all the best to MONIT for its future.
+            </p>
+            <div class="testimonial-content" style="display: flex;overflow: hidden;">
+              <img src="assets/images/testimonial_2.png" alt="">
+              <div class="testimonial-res">
+                <h3 style="color: black;">Burhan Akhlaque</h3>
+                <span style="color: skyblue;">
+                  Head of HSE at Shakoor & Co Ltd <br> UEP British petroleum Haulier
+                </span>
+              </div>
+            </div>
+
+
+
         </div>
           </div>
+ 
         </div>
     </div>
 </div>
 
+</div>
+
   <!--End-->
 
-  <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
-  <script src="assets/bootstrap/bootstrap.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <div class="container-fluid text-center footer">
+      <div class="row footer_row">
+        <div class="col footer_col_1">
+          <img src="./assets/images/footer_logo.png" alt="logo" />
+          <p class="footer_col_1_text">
+            Monit is Pakistan’s first Vehicular Internet of Things (IoT) and
+            Embedded Artificial Intelligence (AI) manufacturer, developing
+            cutting-edge solutions for commercials fleets.
+          </p>
+          <div class="footer_socials">
+            <a href="#" class="footer_icon"
+              ><img src="assets/images/fb.png" alt="network error"
+            /></a>
+            <a href="#" class="footer_icon"
+              ><img src="assets/images/twitter.png" alt="network error"
+            /></a>
+            <a href="#" class="footer_icon"
+              ><img src="assets/images/youtube.png" alt="network error"
+            /></a>
+          </div>
+        </div>
+        <div class="col footer_col_2">
+          <h1 class="footer_col_2_heading">Quick Links</h1>
+          <div class="footer_col_2_text">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#solution">Monit Solution</a></li>
+            <li><a href="#about">About Monit</a></li>
+            <li><a href="#vision">Vision & Mission</a></li>
+            <li><a href="#values">Our Values</a></li>
+            <li><a href="#leadership">Monit Leadership</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#quote">Get A Quote</a></li>
+          </div>
+        </div>
+        <div class="col footer_col_3">
+          <h1 class="footer_col_2_heading">Contact Us</h1>
+          <div class="footer_col_2_text">
+            <div class="contact-info">
+              <div class="email-icon">
+                <img src="./assets/images/email.png" alt="Email Icon" />
+              </div>
+              <div class="email-text">
+                <p>
+                  Email : <br />
+                  <span
+                    ><a href="mailto:info@example.com"
+                      >info@example.com</a
+                    ></span
+                  >
+                </p>
+              </div>
+            </div>
 
-  <script src="assets/js/nav.js"></script>
+            <div class="location-info">
+              <div class="location-icon">
+                <img src="./assets/images/location.png" alt="Email Icon" />
+              </div>
+              <div class="location">
+                <p>
+                  Address : <br />
+                  <span
+                    >202, Azayam Plaza, Shahrah e Faisal,<br />Karachi, Pakistan
+                    – 74000</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container copyright">
+        <div>
+          <p>Copyright © 2024 Monit. All rights reserved.</p>
+        </div>
+        <div class="terms">
+          <p>
+            Terms of Use I <a href="#"> Policy</a> I <a href="#">Account</a>
+          </p>
+        </div>
+      </div>
+    </div>
 
-</body>
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/bootstrap/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+    <script src="assets/js/nav.js"></script>
+  </body>
 </html>

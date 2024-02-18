@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-}
 
 .header-area {
 
@@ -66,10 +62,7 @@ body {
     transition: .5s;
 }
 
-.primary-menu a:hover,
-.primary-menu .active {
-    /* color:#ff4a04;    */
-}
+
 
 .primary-menu li a:after {
     content: "";
@@ -102,24 +95,15 @@ body {
     cursor: pointer;
 }
 
-.mainicon:hover {
-    margin-right: 5px;
-    transition: 1s;
-}
 
 .icon {
-    float: right;
-    margin-top: 10px;
-    cursor: pointer;
-    padding: 0px;
-    display: inline-block;
-    padding: 8px 10px;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 50%;
-    border: 1px solid white;
-    position: relative;
+    float: right;   
     overflow: hidden;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.icon a:hover{
+    background-color: #03668d;
 }
 
 section#hero-section {
@@ -132,16 +116,6 @@ section#hero-section {
     position: relative;
 }
 
-.mobile-nav a:hover {
-    display: inline-block;
-    padding: 8px 10px;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 50%;
-    border: 1px solid rgb(4, 121, 167);
-    margin-left: 5px;
-    transition: 1s;
-}
 
 
 
@@ -152,12 +126,14 @@ section#hero-section {
     height: 100vh;
     width: 100%;
     left: 0;
-    top: 0;
-    ;
+    top: 0;    
     padding: 30px 0px 150px 0px;
 
 
-    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease, clip-path 0.8s ease;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
 }
 
 .primary-menu li {
@@ -168,13 +144,15 @@ section#hero-section {
 
 .mobile-nav {
     display: block;
-
+   
 
 }
 
 .mobile-menu {
-    display: block;
-
+   
+    opacity: 1;
+    visibility: visible;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); 
 
 
 }
@@ -200,7 +178,7 @@ section#hero-section {
     overflow: hidden;
     position: absolute;
     top: 90%;
-    left: 85%;
+    left: 95%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
     color: #fff;
@@ -221,8 +199,8 @@ section#hero-section {
 
 .banner-content {
     position: absolute;
-    top: 80%;
-    left: 30%;
+    top: 70%;
+    left: 35%;
     transform: translate(-60%, -60%);
 
     color: #fff;
@@ -262,7 +240,7 @@ section#hero-section {
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 430px) {
     .site-logo a {
         padding: 0;
     }
@@ -352,3 +330,14 @@ section#hero-section {
 	background: #1c47e3;    
 	border: 5px double;    
 }
+.carousel {
+    cursor: grab;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+  .carousel:active {
+    cursor: grabbing;
+  }
