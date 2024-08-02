@@ -206,9 +206,6 @@ section#hero-section {
     position: relative;
 }
 
-body.no-scroll {
-    overflow-y: hidden;
-}
 
 
 
@@ -331,16 +328,16 @@ body.no-scroll {
         color: #fff;
     }
     .form_Design input{
-        
+
         margin-left: 25px !important   ;
-        
-        
+
+
       }
       .form_Design select {
-        
+
         margin-left: 25px !important;
-        
-    
+
+
       }
       .site-logo a {
         padding: 0;
@@ -357,14 +354,25 @@ body.no-scroll {
     .form_Design .forbtns{
         width: 95% !important;
         margin-left: 33px !important;
-       
+
      }
      .notto{
         display: none;
      }
 }
+@media (max-width: 430px) {
+    .site-logo a {
+        padding: 0;
+    }
 
+    .mobile-nav .mainicon {
+        padding: 4px;
+    }
 
+    .video-sec {
+        display: none;
+    }
+}
 
 #staticBackdrop {
     background: none;
@@ -432,7 +440,6 @@ body.no-scroll {
 	border-radius: 50%;
 	margin: 1px 3px;
 	box-sizing: border-box;
-    display: none;
 }
 .carousel-indicators li {
 	background: #e2e2e2;
@@ -455,8 +462,7 @@ body.no-scroll {
     cursor: grabbing;
   }
 
- 
- .form_Design{
+  .form_Design{
     background: linear-gradient(to right, rgba(8, 21, 118, 1), rgba(1, 156, 215, 1));
     font-family: var(--font-family-regular);
     color: #EFEFEF;
@@ -474,8 +480,8 @@ body.no-scroll {
     border-radius: 25px;
     margin-left: 100px;
     margin-bottom: 20px;
-    
-    
+
+
   }
   .form_Design select {
     padding: 12px 50px;
@@ -486,20 +492,20 @@ body.no-scroll {
   }
 
   .form-group .custom-select {
-    width: 100%; 
+    width: 100%;
     padding: 12px;
     border-radius: 25px;
     margin-bottom: 20px;
     position: relative;
   }
 
-  
 
- 
+
+
   .form_Design label {
     margin-left: 100px;
   }
-  
+
  .form_Design .forbtns{
     width: 82%;
     margin-left: 110px;

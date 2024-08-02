@@ -1,0 +1,34 @@
+EPC's, importers, sellers etc === SELLERS
+
+1) Seller ke pas kiya options hone chayen? Kitni screens hongi in their dashboard?
+
+2) Total Categories of products? Pre defined for user to select OR user can enter custom categories? 
+
+3) What fields are required for the seller? pictures, category, products etc. (Any other technical requirements in this domain?)
+
+4) What options/features/functionalaities will be allowed for seller?
+
+5) Inventory management? agar 2 panels sell hojaate hain out of 10 via call, iski inventory se wo khud minus karega?
+
+6) Ratings kese manage hongi?? Cause hamare platform pe tou orders process nahi ho rahe neither payment ho rahi hai. How can we assure  ke ratings are genuine? Pakwheels pe bhi normal users rating nahi kar sakte. Auditing jo thi wo tw EPC's ki thi, unka tw phr koi scenario ban sakta hai.
+
+7) Verification process official phone number pe karna hai Sellers ka? Will that be managed manually? Yahan pe bhi fraud ho sakte hain cause numbers verify karne ka koi mechanism nahi hai.
+
+8) Service providers (EPC's) ko pre defined services hi offer kar sakte hain bas? ya custom services as well?
+
+
+
+Super Admin (US/WE), hamare pas kiya authorities hongi, apart from verification of sellers?
+
+
+
+Search based on "Name", "Services", "Company", "Price", "City", "Electirc Consumption (based on electric bill or appliances)" etc (Can be modified down the road)
+
+
+
+Chat ke liye buyer se either EMAIL or CONTACT # puchna parega, to maintain their chat history. Can do sign in with google here as well, one tap sign in. WhatsApp pe direct message kar wa sakte hain without any user registration
+
+
+
+6 to 7 lacs.
+
