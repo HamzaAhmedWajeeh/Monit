@@ -103,7 +103,7 @@
   font-family: var(--font-family-bold);
   font-size: 40px;
   text-align: center;
-  margin-bottom: 28px;
+  margin-bottom: 100px;
   color: #FFF;
 }
 .values_col_1_heading, .values_col_2_heading, .values_col_3_heading{
@@ -138,6 +138,110 @@
 }
 
 /* Values END */
+
+
+
+
+/* TEST :start */
+.main-solutionsMFT-brand {
+  display: flex;
+  /* cursor: pointer; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.main-solutionsMFT-brand-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-solutionsMFT-brand-first h2 {
+  color: #3F3F3F;
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 20px;
+  width: 55%;
+}
+
+.main-solutionsMFT-brand-second {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.main-solutionsMFT-brand-second img {
+  width: 8%;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.main-solutionsMFT-brand-second img:hover {
+  filter: grayscale(0%);
+}
+
+.main-solutionsMFT-brand-second-brandlogo3 {
+  width: 80px !important;
+  height: 80px;
+}
+
+@media (max-width: 1280px) {
+  .main-solutionsMFT-brand-second img {
+    width: 10%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-solutionsMFT-brand-second img {
+    width: 18%;
+  }
+  .main-solutionsMFT-brand-first h2 {
+    width: 75%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-solutionsMFT-brand-second img {
+    width: 25%;
+  }
+  .main-solutionsMFT-brand-first h2 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 450px) {
+  .main-solutionsMFT-brand-first h2 {
+    font-size: 16px;
+  }
+  .main-solutionsMFT-brand-second img {
+    width: 30%;
+  }
+}
+
+@media (max-width: 350px) {
+  .main-solutionsMFT-brand-second img {
+    width: 35%;
+  }
+  .main-solutionsMFT-brand-second-brandlogo3 {
+    width: 60px !important;
+    height: 60px;
+  }
+}
+/* TEST :end */
+
+
+
+
 
 /* solution START */
 .solution {
