@@ -1,36 +1,36 @@
-$(document).ready(function () {
-    $(".mainicon").click(function () {
-        $(".site-nav-menu").toggleClass("mobile-menu");
-  
-        $("body").toggleClass("no-scroll");
-    });
+// $(document).ready(function () {
+//     $(".mainicon").click(function () {
+//         $(".site-nav-menu").toggleClass("mobile-menu");
 
-    $("#l").click(function () {
-        document.getElementById("l").style.display = 'none';
-        document.getElementById("ic").style.display = 'none';
-        document.getElementById("icc").style.display = 'none';
-        document.getElementById("vid").style.display = 'none';
-        document.getElementById("iconn").style.opacity = 0;
-       
-    })
-    $(".onc").click(function () {
-      document.getElementById("l").style.display = 'block';
-      document.getElementById("ic").style.display = 'block';
-      document.getElementById("icc").style.display = 'block';
-      document.getElementById("iconn").style.opacity = 1;
-      document.getElementById("vid").style.display = 'block';
-     
-  })
- 
+//         $("body").toggleClass("no-scroll");
+//     });
 
-    $("#ll").click(function () {
-        document.getElementById("l").style.display = 'block';
-        document.getElementById("ic").style.display = 'block';
-        document.getElementById("icc").style.display = 'block';
-        document.getElementById("iconn").style.opacity = 1;
-        document.getElementById("vid").style.display = 'block';
-    })
-});
+//     $("#l").click(function () {
+//         document.getElementById("l").style.display = 'none';
+//         document.getElementById("ic").style.display = 'none';
+//         document.getElementById("icc").style.display = 'none';
+//         document.getElementById("vid").style.display = 'none';
+//         document.getElementById("iconn").style.opacity = 0;
+
+//     })
+//     $(".onc").click(function () {
+//       document.getElementById("l").style.display = 'block';
+//       document.getElementById("ic").style.display = 'block';
+//       document.getElementById("icc").style.display = 'block';
+//       document.getElementById("iconn").style.opacity = 1;
+//       document.getElementById("vid").style.display = 'block';
+
+//   })
+
+
+//     $("#ll").click(function () {
+//         document.getElementById("l").style.display = 'block';
+//         document.getElementById("ic").style.display = 'block';
+//         document.getElementById("icc").style.display = 'block';
+//         document.getElementById("iconn").style.opacity = 1;
+//         document.getElementById("vid").style.display = 'block';
+//     })
+// });
 
 
 // testimonials
