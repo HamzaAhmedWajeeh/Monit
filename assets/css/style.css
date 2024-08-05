@@ -569,21 +569,28 @@ text-align: right; /* Align the terms to the right */
 
 .copyright {
   display: flex; /* Use flexbox */
-  justify-content: space-between; /* Space the items evenly */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
   margin-top: 15px;
+  text-align: center;
   font-family: var(--font-family-regular);
   font-size: 14px;
   color: #FFFFFF;
 }
 
+.copyright p {
+  text-align: center;
+}
+
 .copyright a {
   color: inherit; /* Inherit text color from parent */
   text-decoration: none; /* Remove underline from the link */
-  }
+}
+
 .copyright a:hover {
   color: #019BD6;
+}
 
-    }
 
     .about {
       background: linear-gradient(to right, rgba(28, 8, 118, 1), rgba(1, 156, 215, 0.9)), url('./../images/center_banner.png'); /* Set background gradient and image */
