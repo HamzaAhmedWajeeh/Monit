@@ -486,6 +486,29 @@ text-align: right; /* Align the terms to the right */
 .footer_icon:hover {
   background-color: #019BD6; /* Change background color on hover */
 }
+.header_socials {
+  display: flex;
+  gap: 10px; /* Add spacing between buttons */
+}
+.header_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px; /* Set the width */
+  height: 40px; /* Set the height */
+  border-radius: 50%; /* Make the button perfectly round */
+  background-color: transparent;
+  border: 1px solid white;
+  overflow: hidden;
+  position: relative;
+  transition: background-color 0.3s ease; /* Add transition for hover effect */
+}
+.header_icon:hover {
+  background-color: #FFF; /* Change background color on hover */
+}
+.header_icon:hover img {
+  filter: brightness(0); /* Makes the image black */
+}
 .footer_col_2_heading{
   font-family: var(--font-family-bold);
   color: #FFFFFF;
