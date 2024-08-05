@@ -430,7 +430,7 @@ text-align: right; /* Align the terms to the right */
   /* Footer Start */
 .footer{
   background-color: #00094D;
-  height: 485px;
+  height: 430px;
 }
 .footer_col_1, .footer_col_2, .footer_col_3{
   margin-top: 80px !important;
