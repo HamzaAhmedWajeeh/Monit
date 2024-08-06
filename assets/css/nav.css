@@ -407,6 +407,7 @@ section#hero-section {
 
 .p-1{
   font-size: 17px;
+  font-family: var(--font-family-regular);
 }
 
 .swiper-slide img {
