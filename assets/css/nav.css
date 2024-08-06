@@ -12,7 +12,7 @@
   z-index: 999;
 
   position: absolute;
-  
+
 }
 
 .header-container {
@@ -405,11 +405,13 @@ section#hero-section {
   padding-bottom: 50px;
 }
 
-
+.p-1{
+  font-size: 17px;
+}
 
 .swiper-slide img {
   display: block;
-  
+
 }
 .form_Design{
   background: linear-gradient(to right, rgba(8, 21, 118, 1), rgba(1, 156, 215, 1));
