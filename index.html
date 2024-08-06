@@ -25,6 +25,9 @@
   .swiper-slide {
     width: 500px !important; /* This will only apply for screens 768px and wider */
   }
+  .swiper-slide{
+  margin: 2rem;
+}
   .heading_testimonial{
     margin-left: 21rem !important;
   }
@@ -930,14 +933,99 @@
       </div>
       
     </div><br>
-    <div class="swiper-pagination"></div>
+    <!-- <div class="swiper-pagination"></div> -->
   </div>
 
 
 </div>
     <!--End-->
 
-   
+    <div class="container-fluid text-center footer">
+      <div class="row footer_row">
+        <div class="col footer_col_1">
+          <img src="./assets/images/footer_logo.png" alt="logo" />
+          <p class="footer_col_1_text">
+            Monit is Pakistan’s first Vehicular Internet of Things (IoT) and
+            Embedded Artificial Intelligence (AI) manufacturer, developing
+            cutting-edge solutions for commercials fleets.
+          </p>
+          <div class="footer_socials">
+            <a
+              href="https://www.linkedin.com/company/monit-inc/"
+              target="_blank"
+              class="footer_icon"
+              ><img
+                src="assets/images/icons8-linkedin-24.png"
+                alt="linkedin link"
+            /></a>
+            <!-- <a href="#" class="footer_icon"
+              ><img src="assets/images/twitter.png" alt="network error"
+            /></a>
+            <a href="#" class="footer_icon"
+              ><img src="assets/images/youtube.png" alt="network error"
+            /></a> -->
+          </div>
+        </div>
+        <div class="col footer_col_2">
+          <h1 class="footer_col_2_heading">Quick Links</h1>
+          <div class="footer_col_2_text">
+            <!-- <li><a href="#home">Home</a></li> -->
+            <li><a href="#solution">Our Solution</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#vision">Vision & Mission</a></li>
+            <li><a href="#industries">Industries</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <!-- <li><a href="#contact">Get A Quote</a></li> -->
+          </div>
+        </div>
+        <div class="col footer_col_3">
+          <h1 class="footer_col_2_heading">Contact Us</h1>
+          <div class="footer_col_2_text">
+            <div class="contact-info">
+              <div class="email-icon">
+                <img src="./assets/images/email.png" alt="Email Icon" />
+              </div>
+              <div class="email-text">
+                <p>
+                  Email : <br />
+                  <span
+                    ><a href="mailto:info@example.com"
+                      >info@example.com</a
+                    ></span
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="location-info">
+              <div class="location-icon">
+                <img src="./assets/images/location.png" alt="Email Icon" />
+              </div>
+              <div class="location">
+                <p>
+                  Address : <br />
+                  <span
+                    >202, Azayam Plaza, Shahrah e Faisal,<br />Karachi, Pakistan
+                    – 74000</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container copyright">
+        <p style="text-align: center">
+          Copyright © 2024 <a href="#">Monit</a>. All rights reserved.
+        </p>
+        <!-- <div class="terms">
+          <p>
+            <a href="#">Terms of Use</a> I <a href="#"> Policy</a>
+          </p>
+        </div> -->
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -960,22 +1048,22 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-        var swiper = new Swiper(".mySwiper", {
-      effect: "coverflow",
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-      },
-    });
+var swiper = new Swiper(".mySwiper", {
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true,
+  },
+  initialSlide: 1, // Start from the second slide
+  // Omitting pagination parameter to hide dots
+});
+
     </script>
   </body>
 </html>
