@@ -652,6 +652,12 @@ text-align: right; /* Align the terms to the right */
       border-radius: 15px;
       padding: 2em !important;
       margin: 1rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .industry-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+
   }
   .industry-card h2 {
       font-size: 1.5rem;
