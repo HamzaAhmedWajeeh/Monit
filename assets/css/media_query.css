@@ -1,6 +1,7 @@
 @media only screen and (max-width: 768px) {
     .vision_image img, .mission_image img {
         width: 285px;
+        margin-right: 0px;
     }
     .vision_heading, .mission_heading, .vision_text, .mission_text{
         text-align: center;
