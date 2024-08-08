@@ -630,3 +630,51 @@ text-align: right; /* Align the terms to the right */
       font-family: var(--font-family-bold);
       font-size: 22px;
     }
+    .industry-section {
+      padding: 2rem 0;
+  }
+  .industry-heading {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+  }
+  .industry-description {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+  }
+  .industry-card {
+      background-color: #e3f2fd;
+      border-radius: 15px;
+      padding: 1.5rem;
+      margin: 1rem;
+  }
+  .industry-card h2 {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      font-weight: bold;
+  }
+  .industry-card p {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+  }
+  .industry-img {
+      max-width: 100px;
+      height: auto;
+      margin-right: 1rem;
+  }
+  .industry-card-row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+  @media (max-width: 767px) {
+      .industry-card-row {
+          flex-direction: column;
+          align-items: center;
+          
+      }
+      .industry-img {
+          margin-bottom: 1rem;
+          margin-right: 0;
+      }
+  }
