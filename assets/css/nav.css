@@ -200,7 +200,7 @@
 section#hero-section {
   width: 100%;
   height: 100vh;
-  background: url(../images/banner_image.png);
+  background: url(../images/high-angle-shot-big-highway-with-multiple-roads-train-riding-through-central-road.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -263,6 +263,10 @@ section#hero-section {
   overflow: hidden;
 }
 
+.banner_text{
+  font-size: 33px;
+}
+
 .video-sec {
   width: 100px;
   height: 100px;
@@ -292,6 +296,7 @@ section#hero-section {
   top: 70%;
   left: 35%;
   transform: translate(-60%, -60%);
+
 
   color: #fff;
 }
@@ -325,8 +330,12 @@ section#hero-section {
       top: 75%;
       left: 50%;
       transform: translate(-50%, -50%);
+      width: 286px;
 
       color: #fff;
+  }
+  .banner_text{
+    font-size: 25px;
   }
   .form_Design input{
 
