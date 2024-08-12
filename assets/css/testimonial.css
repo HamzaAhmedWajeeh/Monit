@@ -98,6 +98,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .responsive-cell-block.wk-desk-1.wk-tab-1.wk-mobile-1.wk-ipadp-1.content:hover{
+    transform: translateY(-5px);
+box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
   }
 
   .text-blk.info-block {
@@ -167,8 +172,8 @@
   }
 
   .profile-img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
